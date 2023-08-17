@@ -1,0 +1,178 @@
+/* .login_back{
+    background: url("https://www.teknofilo.com/wp-content/uploads/2021/06/Netflix-1280x720.jpg") 
+    center no-repeat;
+    background-size: cover;
+} */
+/* .login_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image:linear-gradient(
+        to top, 
+        rgba(0, 0, 0, 0.8)0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+} */
+
+/* .login_errors{
+    color: #ff8c62;
+    font-size: 0.8rem;
+}
+.login_error{
+    color: #ff8c62;
+    font-size: 0.8rem;
+    margin-top: 60px;
+}
+.form_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.login_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+} */
+
+/* .principalContainer{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 350px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; */
+    /*! background: linear-gradient(to right, rgb(236, 4, 4), rgb(47, 27, 27)); */
+    /* background:rgba(0, 0, 0, 0.8)
+} */
+/* .principalContainer:hover{
+    border: 1px solid rgb(94, 8, 8);
+} */
+
+/* .secondaryContainer{
+    text-align: center;
+    padding: 20px;
+} */
+
+/* label{
+    color: #fff;
+} */
+/* h1{
+    color: #fff;
+    margin-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+/* .input_div{
+    margin: -60px;
+} */
+/* .input{ 
+    border: 1px solid;
+    width: 260px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    outline-width: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /*! background-color: rgba(108, 53, 53, 0);  ----------*/
+    /* background: rgba(108, 107, 107, 0.6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+/* .input:hover{
+    border: 1px solid rgb(12, 10, 10);
+}
+
+input:focus {
+    border: 2px solid rgb(252, 252, 252); 
+  } */
+
+/* .button{ */
+        /*! background-image: linear-gradient(to left, red, black); */
+        /* margin-left: 60px;
+        height: 50px;
+        padding: 10px;
+        width: 70%;
+        background: red;
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 16px ;
+        cursor: pointer;
+} */
+/* .button:hover{
+    background-image: linear-gradient(to left, rgb(236, 4, 4), rgb(47, 27, 27));
+} */
+.login_form{
+    max-width: 300px;
+    padding: 70px;
+    /* margin-left: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.login_form > form{
+    display: grid;
+    flex-direction: column;
+
+}    
+
+.login_form > form > h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    color: #fff;
+    /* margin-top: -40px; */
+}
+.login_form > form > h4 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.login_gray{
+    color: gray;
+}
+
+.login_link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login_form > form > input {
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.login_form > form > button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+}

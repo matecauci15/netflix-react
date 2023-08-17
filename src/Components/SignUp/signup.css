@@ -1,0 +1,103 @@
+.signUp{
+    background: url("https://www.teknofilo.com/wp-content/uploads/2021/06/Netflix-1280x720.jpg") 
+    center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.signUp_button{
+    position: fixed;
+    right: 20px;
+    /* right: 180px; */
+    top: 25px;
+    border-radius: 5px;
+    padding: 9px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: bold;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+.signUp_logo{
+    position: fixed;
+    left: 20px;
+    /* left: 150px; */
+    width: 190px;
+    object-fit: contain;
+    padding-left: 20px;
+    /* margin-top: -10px; */
+}
+
+.signUp_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image:linear-gradient(
+        to top, 
+        rgba(0, 0, 0, 0.8)0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.signUp_body{
+    left: 250px;
+    position: absolute;
+    top: 23%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.signUp_body > h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.signUp_body > h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.signUp_body > h3 {
+    font-size: 1.2rem;
+    font-weight: 400; 
+    margin-bottom: 25px;
+}
+
+.signUp_input > form > input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 40%;
+    border: none;
+    max-width: 300px;
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+.signUp_buttonStart{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color:#fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
